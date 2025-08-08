@@ -1,0 +1,24 @@
+{
+  "name": "sandakadapahana-server",
+  "version": "1.0.0",
+  "description": "Express server for Sandakadapahana Concert",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "express-rate-limit": "^6.8.1",
+    "joi": "^17.9.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
